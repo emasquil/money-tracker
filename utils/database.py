@@ -9,7 +9,7 @@ def create_db(args):
     if os.path.isfile(db):
         delete = input(f"Database {db} already exists." "Overwrite [yes,y \ no, n] ?")
         if delete in ("yes", "y"):
-            os.remove(db)
+            print("Modifying existent database")
         else:
             print("Try again with other database name")
             exit()
