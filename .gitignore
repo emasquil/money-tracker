@@ -1,0 +1,7 @@
+*.sql
+.venv
+.env
+.DS_Store
+.vscode
+*.cast
+__pycache__
